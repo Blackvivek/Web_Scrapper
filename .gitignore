@@ -1,0 +1,31 @@
+# Ignore Python virtual environments
+web_venv/
+.env/
+
+# Ignore node_modules (if applicable)
+node_modules/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore output or build directories
+output/
+dist/
+build/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Scraped data
+/scraped_data
