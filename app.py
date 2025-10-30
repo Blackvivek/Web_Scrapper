@@ -47,7 +47,7 @@ if st.button("🚀 Start Scraping"):
         os.makedirs(scrape_dir, exist_ok=True)
 
         # Choose the scraper script based on user selection
-        scraper_script = "scraper\scraper\spiders\genericspider.py" if scraper_type == "Generic Scraper" else "scraper\scraper\spiders\llm_spider.py"
+        scraper_script = "scraper/scraper/spiders/genericspider.py" if scraper_type == "Generic Scraper" else "scraper/scraper/spiders/llm_spider.py"
 
         # Run Scrapy as a subprocess with selected scraper
         cmd = [
